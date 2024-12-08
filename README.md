@@ -4,10 +4,6 @@
 ## Setup Instructions
 Install .Net6 or above.
 
-## Development server
-
-
-
 
 
 ## Clone the repository
@@ -21,6 +17,7 @@ https://github.com/sandy04121999/ContactAPI.git
   ````
  2. Run the Angular development server (Contract UI): 
 
+	replace the API base url in cotract service "apiUrl" variable  
   ````bash
   ng serve
   ````
@@ -61,7 +58,7 @@ Styling:
 
 Bootstrap is used for styling to maintain a clean and responsive UI with minimal custom CSS.
 
-## .NET Core and EF Core:
+## .NET Core and Json Data:
 
 .NET Core provides a robust and scalable framework for building the backend API.
  json data using for CURD operations 
@@ -72,7 +69,7 @@ Follows REST principles, making the API predictable and easy to integrate.
 
 Repository Pattern:
 
-Encapsulates data access logic, ensuring a clear separation of concerns and testability.
+Encapsulates data access logic, ensuring a clear separation of concerns.
 
 ## Future Enhancements
 Add authentication and authorization.
